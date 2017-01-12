@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>WebAgency</title>
+    <meta name="description" content="WebAgency, l'agence de tous les projets !">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="nav-fixed">
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="img/logo.png" alt="WebAgency">
+        </div>
+        <ul>
+            <li><a href="#header" class="active">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="wrap">
+    <header id="header">
+        <div class="slider">
+            <span class="slider-previous"><i class="fa fa-chevron-left"></i></span>
+            <span class="slider-next"><i class="fa fa-chevron-right"></i></span>
+            <div class="slides">
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1><span>WebAgency</span> : L'agence de tous vos projets !</h1>
+                        <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                        <a href="#services" class="btn btn-primary">Plus d'infos</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1><span>WebAgency</span> : Une équipe d'experts à votre service !</h1>
+                        <p>Designer, développeur, expert SEO, responsable marketing, nous pouvons réaliser les projets les plus exigeants ! </p>
+                        <a href="#" class="btn btn-primary">Notre équipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section id="services">
+            <h2>Nos services</h2>
+            <hr>
+            <p>Webmarketing, webdesign, développement, hébergement, référencement et formation... nous gérons votre projet de A à Z.</p>
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/main-feature.png" alt="Nos services">
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <span class="icon left"><i class="fa fa-line-chart"></i></span>
+                            <h3>Design</h3>
+                            <p>Création d'un design moderne afin de mettre en valeur l'image de votre société.</p>
+                        </li>
+                        <li>
+                            <span class="icon left"><i class="fa fa-cubes"></i></span>
+                            <h3>Développement</h3>
+                            <p>Développement de votre site internet sur mesure ou à l'aide d'un CMS.</p>
+                        </li>
+                        <li>
+                            <span class="icon left"><i class="fa fa-pie-chart"></i></span>
+                            <h3>SEO</h3>
+                            <p>Du référencement naturel à la publicité en ligne, booster la visibilité de votre site Internet.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Nos Projets</h2>
+            <hr>
+            <p>Notre agence web est spécialisée dans la création et la refonte de sites web, l'optimisation du trafic et le référencement sur Internet</p>
+            <nav class="btn-group">
+                <button data-filter="*" class="btn btn-primary active">Tous</button>
+                <button data-filter="creative" class="btn btn-primary">Creative</button>
+                <button data-filter="corporate" class="btn btn-primary">Corporate</button>
+                <button data-filter="portfolio" class="btn btn-primary">Portfolio</button>
+            </nav>
+            <div class="projects">
+                <div data-projet-type="corporate" class="projet">
+                    <img src="img/portfolio/01.jpg" alt="Projet 1">
+                    <div class="overlay">
+                        <a href=""><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Pâtisserie Sainte Thérèse</h4>
+                        <p>Créateur de plaisir</p>
+                    </div>
+                </div>
+                <div data-projet-type="creative" class="projet">
+                    <img src="img/portfolio/02.jpg" alt="Projet 2">
+                    <div class="overlay">
+                        <a href=""><span><i class="fa fa-eye"></i></span></a>
+                        <h4>LSPC Limoges</h4>
+                        <p>Limoges Plomberie Sanitaire Chauffage</p>
+                    </div>
+                </div>
+                <div data-projet-type="portfolio" class="projet">
+                    <img src="img/portfolio/03.jpg" alt="Projet 3">
+                    <div class="overlay">
+                        <a href=""><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Mairie de limoges</h4>
+                        <p>Site officiel de la mairie</p>
+                    </div>
+                </div>
+                <div data-projet-type="corporate" class="projet">
+                    <img src="img/portfolio/04.jpg" alt="Projet 4">
+                    <div class="overlay">
+                        <a href=""><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Limoges CSP</h4>
+                        <p>Site officiel du club de basket</p>
+                    </div>
+                </div>
+                <div data-projet-type="corporate" class="projet">
+                    <img src="img/portfolio/05.jpg" alt="Projet 5">
+                    <div class="overlay">
+                        <a href="#"><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Miroiterie Raynaud</h4>
+                        <p>Certifié pro de la performance énergétique</p>
+                    </div>
+                </div>
+                <div data-projet-type="creative" class="projet">
+                    <img src="img/portfolio/06.jpg" alt="Projet 6">
+                    <div class="overlay">
+                        <a href="#"><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Bernardaud</h4>
+                        <p>Création et savoir faire en porcelaine</p>
+                    </div>
+                </div>
+                <div data-projet-type="portfolio" class="projet">
+                    <img src="img/portfolio/07.jpg" alt="Projet 7">
+                    <div class="overlay">
+                        <a href="#"><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Les Jardins d'Elwan</h4>
+                        <p>Naturellement votre !</p>
+                    </div>
+                </div>
+                <div data-projet-type="portfolio" class="projet">
+                    <img src="img/portfolio/08.jpg" alt="Projet 8">
+                    <div class="overlay">
+                        <a href="#"><span><i class="fa fa-eye"></i></span></a>
+                        <h4>Le Lutin Gourmand</h4>
+                        <p>La qualité qui fait toute la différence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2156022978156!2d2.347635616236661!3d48.87316630761955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1480441903775"
+                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <section>
+            <form>
+                <h3>Contact</h3>
+                <p>
+                    <strong>WebAgency SAS</strong><br>
+                    25 rue d'Hauteville 75010 Paris<br>
+                    Tel: 01 02 03 04 05
+                </p>
+                <input name="name" type="text" placeholder="Nom">
+                <input name="email" type="email" placeholder="Email">
+                <input name="subject" type="text" placeholder="Sujet">
+                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-primary">Envoyé</button>
+            </form>
+            <div class="clearfix"></div>
+        </section>
+    </footer>
+</div>
+</body>
+</html>
